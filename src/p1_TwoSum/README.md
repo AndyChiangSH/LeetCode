@@ -1,5 +1,8 @@
 # p1_TwoSum
 
+[![hackmd-github-sync-badge](https://hackmd.io/ylrOerPIR-CUAhtKKKQDTw/badge)](https://hackmd.io/ylrOerPIR-CUAhtKKKQDTw)
+
+
 ###### tags: `LeetCode`
 
 ## 題目
