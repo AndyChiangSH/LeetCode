@@ -1,5 +1,8 @@
 # p2_AddTwoNumbers
 
+[![hackmd-github-sync-badge](https://hackmd.io/ytPIOeyXQwu0WqCdSYCaKA/badge)](https://hackmd.io/ytPIOeyXQwu0WqCdSYCaKA)
+
+
 ###### tags: `LeetCode`
 
 ## 題目
