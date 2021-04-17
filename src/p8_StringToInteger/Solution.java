@@ -11,14 +11,14 @@ public class Solution {
         
     	boolean isPos = true;
     	int index = 0;
-    	
-    	while(index < s.length()) {
+    		
+    	while(index < s.length()) {		// remove extra whitespace
     		if(s.charAt(index) != ' ') 
     			break;
     		index++;
     	}
     	
-    	if(index == s.length())
+    	if(index == s.length())		// condition that str is all whitespace
     		return 0;
     	
     	if(s.charAt(index) == '-') {	// negative sign
@@ -34,11 +34,11 @@ public class Solution {
     		
     	int integer = 0;
     	while(index < s.length()) {
-    		if(!(s.charAt(index)<= 57 && s.charAt(index) >= 48)) 
+    		if(!(s.charAt(index)<= 57 && s.charAt(index) >= 48)) 	// is not digit
     			break;
     		
     		int dig = (int)(s.charAt(index)-'0');
-    		if(integer > Integer.MAX_VALUE/10) {
+    		if(integer > Integer.MAX_VALUE/10) {	// integer is larger than MAX_VALUE/10
     			if(isPos) {
     				return Integer.MAX_VALUE;
     			}
@@ -46,14 +46,14 @@ public class Solution {
     				return Integer.MIN_VALUE;
     			}
     		}
-    		else if(integer == Integer.MAX_VALUE/10) {
+    		else if(integer == Integer.MAX_VALUE/10) {	// integer is equal to MAX_VALUE/10
     			if(isPos) {
-    				if(dig > 7) {
+    				if(dig > 7) {		// positive
     					return Integer.MAX_VALUE;
     				}
     			}
     			else {
-    				if(dig > 8) {
+    				if(dig > 8) {		// negative
     					return Integer.MIN_VALUE;
     				}
     			}
