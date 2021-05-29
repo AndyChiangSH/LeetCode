@@ -1,3 +1,4 @@
+// solution1 - two for loop: O(N^2)
 package p1_TwoSum;
 
 public class Solution 
