@@ -50,10 +50,13 @@ Output: 2
 
 </details>
 
-### 測資限制
+<details><summary><b>測資範圍</b></summary>
+
 * `n == height.length`
 * `2 <= n <= 105`
 * `0 <= height[i] <= 104`
+
+</details>
 
 ## 解題
 因為之前演算法作業有寫過 Buy Phone，很快就想出解法了~
