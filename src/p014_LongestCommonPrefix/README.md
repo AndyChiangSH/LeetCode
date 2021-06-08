@@ -35,10 +35,12 @@ abdc -> 最後一個
 abc 和 abdc 的最長前綴 = ab
 ```
 
-我的寫法的複雜度：O(M\*N) (M=字串數量，N=最長字串長度)
-大老寫法的複雜度：O(MlogM+N) (M=字串數量，N=第一個和最後一個字串較長的長度)
+我的寫法的複雜度：**O(M\*N) (M=字串數量，N=最長字串長度)**
 
-雖然不知道Java預設sort複雜度是多少，**但大老寫法真的有比較快!**
+雖然不知道Java預設sort複雜度是多少，但假設是NlogN好了。  
+大老寫法的複雜度：**O(MlogM+N) (M=字串數量，N=第一個和最後一個字串較長的長度)**
+
+**大老寫法真的有比較快!**
 
 [原始出處](https://leetcode.com/problems/longest-common-prefix/discuss/721752/Java-100-just-compare-two-strings)
 
