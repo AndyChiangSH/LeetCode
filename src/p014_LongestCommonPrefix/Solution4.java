@@ -1,4 +1,4 @@
-package p14_LongestCommonPrefix;
+package p014_LongestCommonPrefix;
 
 import java.util.Arrays;
 

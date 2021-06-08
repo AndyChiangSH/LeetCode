@@ -1,8 +1,8 @@
-package p14_LongestCommonPrefix;
+package p014_LongestCommonPrefix;
 
 import java.util.Arrays;
 
-public class Solution2 {
+public class Solution3 {
 	
 	public static void main(String[] args) {
 		Solution sol = new Solution();
@@ -14,7 +14,7 @@ public class Solution2 {
 		
 		if(strs == null || strs.length == 0) return "";
 		
-        StringBuilder result = new StringBuilder();
+        String result = "";
         Arrays.sort(strs);
         
         char [] a = strs[0].toCharArray();
@@ -22,13 +22,13 @@ public class Solution2 {
         
         for(int i = 0; i < a.length; i ++) {
             if (b.length > i && b[i] == a[i]) {
-                result.append(b[i]);
+                result += b[i];
             }
             else {
             	break;
             }
         }
         
-        return result.toString();
+        return result;
 	}
 }
