@@ -10,7 +10,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 
 ![](https://i.imgur.com/WF4PW9v.png)
 
-## Problems
+## Problems ![](https://img.shields.io/badge/Solved-14-blue)
 * [p1_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p1_TwoSum)
 * [p2_Add Two Numbers](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p2_AddTwoNumbers)
 * [p3_Longest Substring Without Repeating Characters](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p3_LongestSubstringWithoutRepeatingCharacters)
