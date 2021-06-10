@@ -10,7 +10,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 
 ![](https://i.imgur.com/WF4PW9v.png)
 
-## Problems ![](https://img.shields.io/badge/Solved-14-blue)
+## Problems ![](https://img.shields.io/badge/Solved-15-blue)
 * [p1_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p1_TwoSum)
 * [p2_Add Two Numbers](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p2_AddTwoNumbers)
 * [p3_Longest Substring Without Repeating Characters](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p3_LongestSubstringWithoutRepeatingCharacters)
@@ -25,3 +25,4 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p13_Roman to Integer](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p13_RomanToInteger)
 * [p14_Longest Common Prefix](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p014_LongestCommonPrefix)
 * [p15_3Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p015_3Sum)
+* [p17_Letter Combinations of a Phone Number](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p017_LetterCombinationsOfAPhoneNumber)
