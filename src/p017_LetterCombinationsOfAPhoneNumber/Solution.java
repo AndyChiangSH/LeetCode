@@ -1,29 +1,30 @@
-package p17_LetterCombinationsOfAPhoneNumber;
+package p017_LetterCombinationsOfAPhoneNumber;
 
 import java.util.ArrayList;
 
-public class Solution2 {
+public class Solution {
 	public List<String> letterCombinations(String digits) {
 		List<String> ans = new ArrayList<>();
 		if(digits == null || digits.length() == 0) return ans;	// return empty array
 		
-		recursive(ans, digits, 0, "");
+		recursive(ans, digits, "");
 		return ans;
     }
 	
-	private void recursive(List<String> ans, String digits, int index, String letters) {
+	private void recursive(List<String> ans, String digits, String letters) {
 		
-		if(index == digits.length()) {
+		if(digits.length() == 0) {
 			ans.add(letters);
 			return;
 		}
 		
-		char digit = digits.charAt(index);
+		char digit = digits.charAt(0);
+		String rDigits = digits.substring(1);
 		String choice = DtoL(digit);
 		
 		
 		for(int i = 0; i < choice.length(); i++) {
-			recursive(ans, digits, index+1, letters+choice.charAt(i));
+			recursive(ans, rDigits, letters+choice.charAt(i));
 		}
 		return;
 	}
