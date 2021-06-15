@@ -1,8 +1,10 @@
 package testing;
 
+import java.util.Stack;
+
 public class Test {
 	public static void main(String[] args) {
-		StringBuilder sb = new StringBuilder();
-		System.out.println(sb.toString());
+		Stack st = new Stack();
+		System.out.println(st.peek());
 	}
 }
