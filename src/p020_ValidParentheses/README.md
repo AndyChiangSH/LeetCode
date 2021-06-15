@@ -1,4 +1,4 @@
-# p20_Valid Parentheses
+# p020_Valid Parentheses
 
 ###### tags: `LeetCode` `Easy`
 
