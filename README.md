@@ -29,3 +29,6 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p019_Remove Nth Node From End of List](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p019_RemoveNthNodeFromEndOfList)
 * [p020_Valid Parentheses](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p020_ValidParentheses)
 * [p021_Merge Two Sorted Lists](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p021_MergeTwoSortedLists)
+
+## Challenge ![](https://img.shields.io/badge/Solved-1-orange)
+* [s20210628_Remove All Adjacent Duplicates In String](https://github.com/AndyChiangSH/LeetCode/tree/master/Challenge/c20210628_RemoveAllAdjacentDuplicatesInString)
