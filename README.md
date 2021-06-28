@@ -11,7 +11,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 ![](https://i.imgur.com/WF4PW9v.png)
 
 ## Problems ![](https://img.shields.io/badge/Solved-18-blue)
-* [p001_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p1_TwoSum)
+* [p001_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p1_TwoSum)
 * [p002_Add Two Numbers](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p2_AddTwoNumbers)
 * [p003_Longest Substring Without Repeating Characters](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p3_LongestSubstringWithoutRepeatingCharacters)
 * [p004_Median Of Two Sorted Arrays](https://github.com/AndyChiangSH/LeetCode/tree/master/src/p4_MedianOfTwoSortedArrays)
