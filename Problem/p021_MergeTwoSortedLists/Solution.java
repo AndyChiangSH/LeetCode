@@ -20,7 +20,6 @@ public class Solution {
 		ListNode l3 = sol.mergeTwoLists(l1, l2);
 		System.out.println("l3:");
 		sol.showLinkedList(l3);
-		// wa
 	}
 
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
