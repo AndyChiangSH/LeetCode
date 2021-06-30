@@ -27,8 +27,8 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p019_Remove Nth Node From End of List](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p019_RemoveNthNodeFromEndOfList)
 * [p020_Valid Parentheses](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p020_ValidParentheses)
 * [p021_Merge Two Sorted Lists](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p021_MergeTwoSortedLists)
-* [p22_Generate Parentheses](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p022_GenerateParentheses)
-* [p23_Merge k Sorted Lists](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p023_MergekSortedLists)
+* [p022_Generate Parentheses](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p022_GenerateParentheses)
+* [p023_Merge k Sorted Lists](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p023_MergekSortedLists)
 * [p026_Remove Duplicates from Sorted Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p026_RemoveDuplicatesFromSortedArray)
 * [p029_Divide Two Integers](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p029_DivideTwoIntegers)
 
