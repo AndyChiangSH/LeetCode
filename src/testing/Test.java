@@ -4,7 +4,9 @@ import java.util.Stack;
 
 public class Test {
 	public static void main(String[] args) {
-		Stack st = new Stack();
-		System.out.println(st.peek());
+		int i, j;
+		i = j = 1;
+		System.out.println(i);
+		System.out.println(j);
 	}
 }
