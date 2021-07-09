@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Solution {
 	public static void main(String[] args) {
 		Solution sol = new Solution();
-		int[] nums = {1, 2, 3};
+		int[] nums = {1, 2, 3, 4, 5, 6};
 		ArrayList<ArrayList<Integer>> ans = sol.permute(nums);
 		System.out.println(ans.size());
 		for(int i = 0; i < ans.size(); i++) {
