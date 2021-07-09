@@ -10,7 +10,7 @@ public class Solution4 {
 	}
 	
 	public int firstMissingPositive(int[] nums) {
-        for(int i = 0; i < nums.length;){
+        for(int i = 0; i < nums.length;) {
             if(nums[i] > 0 && i+1 != nums[i] && nums[i]<=nums.length) {
                 if(nums[nums[i]-1] == nums[i])
                     i++;

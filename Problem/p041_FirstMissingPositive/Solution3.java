@@ -5,13 +5,17 @@ public class Solution3 {
 	
 	public static void main(String[] args) {
 		Solution3 sol = new Solution3();
-		int[] nums = {1, 1};
+		int[] nums = {-1, 0, 1, 7, 3, -2, 4};
 		System.out.println(sol.firstMissingPositive(nums));
 	}
 	
 	public int firstMissingPositive(int[] nums) {
         int i = 0, n = nums.length;
         while(i < n) {
+        	
+        	System.out.println("i = "+i);
+        	show(nums);
+        	
         	// if value is in [1, n] and the value of mark position is not same
             if (nums[i] >= 1 && nums[i] <= n && nums[nums[i]-1] != nums[i]) {
                 swap(nums, i, nums[i]-1);	// swap two value
@@ -20,6 +24,8 @@ public class Solution3 {
                 i++;
             }
         }
+        System.out.println("final：");
+        show(nums);
         i = 0;
         while(i < n) {
         	if(nums[i++] != i) return i;	// it nums should be 1, 2, ..., n, return the missing value
@@ -39,6 +45,6 @@ public class Solution3 {
         for(int i = 0; i < nums.length; i++) {
         	System.out.print(nums[i]+" ");
         }
-        System.out.print("\n\n");
+        System.out.print("\n");
     }
 }
