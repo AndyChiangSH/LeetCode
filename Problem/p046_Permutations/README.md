@@ -1,4 +1,4 @@
-# p46_Permutations
+# p046_Permutations
 
 ###### tags: `LeetCode` `Medium`
 
