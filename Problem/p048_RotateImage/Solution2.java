@@ -4,13 +4,13 @@ public class Solution2 {
 	
 	public static void main(String[] args) {
 		Solution2 sol = new Solution2();
-		int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+		int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
 		System.out.println("Before:");
 		sol.show(matrix);
 		
 		sol.rotate(matrix);
 		
-		System.out.println("\nAfter:");
+		System.out.println("Done:");
 		sol.show(matrix);
 	}
 	
@@ -25,6 +25,8 @@ public class Solution2 {
             	matrix[n-1-j][n-1-i] = temp;
             }
         }
+        System.out.println("After rotate:");
+		show(matrix);
         for(int i = 0; i < n/2; i++) {
         	for(int j = 0; j < n; j++) {
         		int temp = matrix[i][j];
@@ -39,10 +41,11 @@ public class Solution2 {
 	private void show(int[][] matrix) {
 		for(int i = 0; i < matrix.length; i++) {
 			for(int j = 0; j < matrix[0].length; j++) {
-				System.out.print(matrix[i][j]+" ");
+				System.out.printf("%3d", matrix[i][j]);
 			}
 			System.out.println();
 		}
+		System.out.println();
 		
 		return;
 	}

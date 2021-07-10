@@ -10,7 +10,7 @@ public class Solution3 {
 		
 		sol.rotate(matrix);
 		
-		System.out.println("\nAfter:");
+		System.out.println("After:");
 		sol.show(matrix);
 	}
 	
@@ -26,6 +26,7 @@ public class Solution3 {
                 matrix[n-1-j][i] = matrix[n-1-i][n-1-j];
                 matrix[n-1-i][n-1-j] = matrix[j][n-1-i];
                 matrix[j][n-1-i] = temp;
+                show(matrix);
             }
         }
         
@@ -39,6 +40,7 @@ public class Solution3 {
 			}
 			System.out.println();
 		}
+		System.out.println();
 		
 		return;
 	}
