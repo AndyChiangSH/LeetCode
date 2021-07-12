@@ -35,6 +35,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p034_Find First and Last Position of Element in Sorted Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p034_FindFirstAndLastPositionOfElementInSortedArray)
 * [p036_Valid Sudoku](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p036_ValidSudoku)
 * [p041_First Missing Positive](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p041_FirstMissingPositive)
+* [p042_Trapping Rain Water](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p042_TrappingRainWater)
 * [p046_Permutations](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p046_Permutations)
 * [p048_Rotate Image](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p048_RotateImage)
 
