@@ -29,6 +29,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p021_Merge Two Sorted Lists](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p021_MergeTwoSortedLists)
 * [p022_Generate Parentheses](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p022_GenerateParentheses)
 * [p023_Merge k Sorted Lists](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p023_MergekSortedLists)
+* [p025_Reverse Nodes in k-Group](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p025_ReverseNodesInKGroup)
 * [p026_Remove Duplicates from Sorted Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p026_RemoveDuplicatesFromSortedArray)
 * [p029_Divide Two Integers](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p029_DivideTwoIntegers)
 * [p033_Search in Rotated Sorted Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p033_SearchInRotatedSortedArray)
