@@ -8,7 +8,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 
 ![](https://i.imgur.com/WF4PW9v.png)
 
-## Problems ![](https://img.shields.io/badge/Solved-29-blue)
+## Problems ![](https://img.shields.io/badge/Solved-30-blue)
 * [p001_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p001_TwoSum)
 * [p002_Add Two Numbers](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p002_AddTwoNumbers)
 * [p003_Longest Substring Without Repeating Characters](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p003_LongestSubstringWithoutRepeatingCharacters)
