@@ -8,7 +8,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 
 ![](https://i.imgur.com/WF4PW9v.png)
 
-## Problems ![](https://img.shields.io/badge/Solved-30-blue)
+## Problems ![](https://img.shields.io/badge/Solved-31-blue)
 * [p001_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p001_TwoSum)
 * [p002_Add Two Numbers](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p002_AddTwoNumbers)
 * [p003_Longest Substring Without Repeating Characters](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p003_LongestSubstringWithoutRepeatingCharacters)
@@ -39,6 +39,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p042_Trapping Rain Water](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p042_TrappingRainWater)
 * [p046_Permutations](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p046_Permutations)
 * [p048_Rotate Image](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p048_RotateImage)
+* [p049_Group Anagrams](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p049_GroupAnagrams)
 
 ## Challenge ![](https://img.shields.io/badge/Solved-1-orange)
 * [s20210628_Remove All Adjacent Duplicates In String](https://github.com/AndyChiangSH/LeetCode/tree/master/Challenge/c20210628_RemoveAllAdjacentDuplicatesInString)
