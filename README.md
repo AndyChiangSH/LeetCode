@@ -8,7 +8,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 
 ![](https://i.imgur.com/WF4PW9v.png)
 
-## Problems ![](https://img.shields.io/badge/Solved-32-blue)
+## Problems ![](https://img.shields.io/badge/Solved-33-blue)
 * [p001_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p001_TwoSum)
 * [p002_Add Two Numbers](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p002_AddTwoNumbers)
 * [p003_Longest Substring Without Repeating Characters](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p003_LongestSubstringWithoutRepeatingCharacters)
@@ -32,6 +32,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p025_Reverse Nodes in k-Group](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p025_ReverseNodesInKGroup)
 * [p026_Remove Duplicates from Sorted Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p026_RemoveDuplicatesFromSortedArray)
 * [p029_Divide Two Integers](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p029_DivideTwoIntegers)
+* [p032_Longest Valid Parentheses](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p032_LongestValidParentheses)
 * [p033_Search in Rotated Sorted Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p033_SearchInRotatedSortedArray)
 * [p034_Find First and Last Position of Element in Sorted Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p034_FindFirstAndLastPositionOfElementInSortedArray)
 * [p036_Valid Sudoku](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p036_ValidSudoku)
