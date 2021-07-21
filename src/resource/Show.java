@@ -120,7 +120,7 @@ public class Show {
 		System.out.println();
 	}
 	
-//	 show int 1D-arrayList
+	// show int 1D-arrayList
 	private void show(ArrayList<Integer> A) {
 		int len = A.size();
 		System.out.print("[");
