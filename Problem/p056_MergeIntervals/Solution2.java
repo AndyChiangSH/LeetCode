@@ -26,18 +26,18 @@ public class Solution2 {
 		
 		for(int i = 1; i < len; i++) {
 			int start = intervals[i][0], end = intervals[i][1];
-			if(start <= max) {
-				max = Math.max(max, end);
+			if(start <= max) {	// merge into interval
+				max = Math.max(max, end);	// max interval end
 			}
-			else {
+			else {	// two interval are not overlapping
 				answer.add(new int[] {min, max});
-				min = start;
-				max = end;
+				min = start;	// start of next interval
+				max = end;		// end of next interval
 			}
 		}
-		answer.add(new int[] {min, max});
+		answer.add(new int[] {min, max});	// last interval
 		
-        return answer.toArray(new int[answer.size()][2]);
+        return answer.toArray(new int[answer.size()][2]);	// convert from arrayList to array
     }
 	
 	public static void sort(int[][] a)
