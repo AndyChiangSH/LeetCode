@@ -1,4 +1,4 @@
-// case2: latest reachable index(LRI)
+// case3: Latest reachable index(LRI)
 package p055_JumpGame;
 
 public class Solution3 {
