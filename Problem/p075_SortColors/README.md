@@ -16,6 +16,8 @@
 > **⏳ 時間複雜度：O(N), N = nums.length**  
 > **💾 空間複雜度：O(3), lt、gt、i**  
 
+[GeeksforGeeks - 3-Way QuickSort](https://www.geeksforgeeks.org/3-way-quicksort-dutch-national-flag/)
+
 ### count & fill
 類似count sort，不過因為只有三個數字，只需要計數0(zero)和1(one)的數量就好，接著就：
 * `[0, zero-1]` 填入 0。
@@ -24,6 +26,8 @@
 
 > **⏳ 時間複雜度：O(2N), N = nums.length**  
 > **💾 空間複雜度：O(2), zero、one**  
+
+[C++ fill用法](https://www.cplusplus.com/reference/algorithm/fill/)
 
 ## 結果
 ### 3-way partition
