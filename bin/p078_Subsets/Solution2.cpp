@@ -5,26 +5,25 @@ using namespace std;
 
 class Solution {
 public:
-	vector< vector<int> > answer;
-	vector<int> comb;
-	
     vector< vector<int> > subsets(vector<int>& nums) {
+    	vector< vector<int> > answer;
     	if(nums.empty()) return answer;
     	
-    	enumerate(&nums, 0);
+		vector<int> comb;
+    	enumerate(&answer, &comb, &nums, 0);
     	
     	this->show(&answer);
     	return answer;
     }
 
-    void enumerate(vector<int>* nums, int n) {
-    	answer.push_back(comb);
+    void enumerate(vector< vector<int> >* answer, vector<int>* comb, vector<int>* nums, int n) {
+    	answer->push_back(*comb);
     	if(n == nums->size()) return;
     	
     	for(int i = n; i < nums->size(); i++) {
-    		comb.push_back(nums->at(i));
-    		enumerate(nums, i+1);
-    		comb.pop_back();
+    		comb->push_back(nums->at(i));
+    		enumerate(answer, comb, nums, i+1);
+    		comb->pop_back();
 		}
 	}
 	
@@ -48,8 +47,7 @@ public:
 
 int main() {
 	Solution sol;
-	
-	vector<int> nums{1, 2, 3};
+	vector<int> nums{0,1,2};
 	
 	sol.subsets(nums);
 }

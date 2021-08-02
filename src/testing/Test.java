@@ -2,19 +2,35 @@ package testing;
 
 public class Test {
 	public static void main(String[] args) {
-		double x = 2.00000;
-		int n = -18;
+		Test test = new Test();
+		StringBuilder sb = new StringBuilder("999999");
+		System.out.println(test.is999(sb));
 		
-		System.out.printf("%.5f", Math.pow(x, n));
+//		String s = "hello world";
+//		StringBuilder sb = new StringBuilder(s);
+//		System.out.println(sb.reverse());
 		
-//		if(n > 0) {
-//			System.out.println("n > 0");
-//		}
-//		else if(n < 0) {
-//			System.out.println("n < 0");
-//		}
-//		else {
-//			System.out.println("n == 0");
-//		}
+//		char n = '1';
+//		char m = (char) (n-1);
+//		System.out.println(m);
+		
+//		System.out.println(Integer.toString(Integer.parseInt("1")-1));
+	}
+	
+	private boolean isPower10(StringBuilder s) {
+		for(int i = s.length()-1; i >= 0; i--) {
+			if(i == 0 && s.charAt(i) == '1') return true;
+			if(s.charAt(i) != '0') return false;
+		}
+		
+		return false;
+	}
+	
+	private boolean is999(StringBuilder s) {
+		for(int i = s.length()-1; i >= 0; i--) {
+			if(s.charAt(i) != '9') return false;
+		}
+		
+		return true;
 	}
 }
