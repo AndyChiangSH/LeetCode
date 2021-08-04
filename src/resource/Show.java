@@ -155,25 +155,25 @@ public class Show {
 	}
 	
 	// show int 2D-arrayList
-		private void show(ArrayList<ArrayList<Integer>> A) {
+	private void show(ArrayList<ArrayList<Integer>> A) {
+		System.out.print("[");
+		for(int i = 0; i < A.size(); i++) {
 			System.out.print("[");
-			for(int i = 0; i < A.size(); i++) {
-				System.out.print("[");
-				ArrayList a = A.get(i);
-				for(int j = 0; j < a.size(); j++) {
-					System.out.print(a.get(j));
-					if(j != a.size()-1) {
-						System.out.print(", ");
-					}
-				}
-				System.out.print("]");
-				if(i != A.size()-1) {
-					System.out.print(",\n ");
+			ArrayList a = A.get(i);
+			for(int j = 0; j < a.size(); j++) {
+				System.out.print(a.get(j));
+				if(j != a.size()-1) {
+					System.out.print(", ");
 				}
 			}
 			System.out.print("]");
-			System.out.println();
+			if(i != A.size()-1) {
+				System.out.print(",\n ");
+			}
 		}
+		System.out.print("]");
+		System.out.println();
+	}
 	
 	// show int 3D-array
 	private void show(int[][][] A) {
