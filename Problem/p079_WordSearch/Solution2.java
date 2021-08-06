@@ -3,8 +3,9 @@ package p079_WordSearch;
 public class Solution2 {
 	public static void main(String[] args) {
 		Solution2 sol = new Solution2();
-		char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
-		String word = "ABCESEECFDAS";
+//		char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+		char[][] board = {{'A','A','A','A'},{'A','A','A','A'},{'A','A','A','B'}};
+		String word = "AB";
 		
 		sol.show(board);
 		System.out.println(sol.exist(board, word));
