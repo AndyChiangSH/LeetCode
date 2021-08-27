@@ -1,6 +1,6 @@
 # p4_Median Of Two Sorted Arrays
 
-###### tags: `LeetCode` `Hard`
+###### tags: `LeetCode`
 
 ## 題目
 [原題目連結](https://leetcode.com/problems/median-of-two-sorted-arrays/)
