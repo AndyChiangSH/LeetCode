@@ -112,7 +112,8 @@ public class Solution2 {
             	else {
             		return MOUSE;
             	}
-            } else {
+            } 
+            else {
             	if(MOUSE.test(record)) {
             		return MOUSE;
             	}
