@@ -1,6 +1,6 @@
 # p200_Number of Islands
 
-###### tags: `LeetCode`
+###### tags: `LeetCode` `Medium`
 
 ## 題目
 [原題目連結](https://leetcode.com/problems/number-of-islands/)
