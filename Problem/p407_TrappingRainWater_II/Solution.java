@@ -1,6 +1,5 @@
+// Solution1: up one level at a time
 package p407_TrappingRainWater_II;
-
-import java.util.PriorityQueue;
 
 public class Solution {
 	public static void main(String[] args) {
@@ -26,6 +25,7 @@ public class Solution {
         m = height_map.length;
         n = height_map[0].length;
         
+        // find max and min height
         int h_max = height_map[0][0], h_min = height_map[0][0];
         for(int i = 0; i < m; i++) {
     		for(int j = 0; j < n; j++) {
@@ -41,10 +41,10 @@ public class Solution {
         for(int h = h_min; h <= h_max; h++) {
         	for(int i = 1; i < m-1; i++) {
         		for(int j = 1; j < n-1; j++) {
-            		if(height_map[i][j] == h) {
+            		if(height_map[i][j] == h) {	// on this height
             			is_trap = true;
             			water = 0;
-            			dfs(i, j, h);
+            			dfs(i, j, h);	// DFS
             			if(is_trap) {
 //            				System.out.println("h="+h+", i="+i+", j="+j+", water="+water);
             				total_water += water;
@@ -63,11 +63,12 @@ public class Solution {
 		if(height_map[i][j] > h) return;
 		
 		height_map[i][j] = h+1;
-		if(i <= 0 || i >= m-1 || j <= 0 || j >= n-1) {
+		if(i <= 0 || i >= m-1 || j <= 0 || j >= n-1) {	// in boundary
 			is_trap = false;
 		}
 		else {
 			water++;
+			// search up, down, left and right
 			dfs(i-1, j, h);
 			dfs(i+1, j, h);
 			dfs(i, j-1, h);

@@ -1,3 +1,4 @@
+// Solution2: up level at a time (with min-heap)
 package p407_TrappingRainWater_II;
 
 import java.util.PriorityQueue;
@@ -30,6 +31,7 @@ public class Solution2 {
 //        System.out.println("Init:");
 //        show(height_map);
         
+        // add into min-heap
         for(int i = 0; i < m; i++) {
     		for(int j = 0; j < n; j++) {
     			priorityQueue.add(height_map[i][j]);
@@ -41,7 +43,7 @@ public class Solution2 {
         	int h = h_next;
         	while(!priorityQueue.isEmpty()) {
         		h_next = priorityQueue.poll();
-    			if(h_next != h) {
+    			if(h_next != h) {	// skip height same as h
     				break;
     			}
         	}
@@ -51,7 +53,7 @@ public class Solution2 {
         	
         	for(int i = 1; i < m-1; i++) {
         		for(int j = 1; j < n-1; j++) {
-            		if(height_map[i][j] == h) {
+            		if(height_map[i][j] == h) {	// on this height
             			is_trap = true;
             			water = 0;
             			dfs(i, j, h, h_next);
@@ -77,7 +79,7 @@ public class Solution2 {
 			is_trap = false;
 		}
 		else {
-			water += (h_next-h);
+			water += (h_next-h);	// between h_next and h
 			dfs(i-1, j, h, h_next);
 			dfs(i+1, j, h, h_next);
 			dfs(i, j-1, h, h_next);
