@@ -97,7 +97,9 @@ Output: 10
 
 在資料結構部分要特別注意的是，類別Cell必須定義好compareTo這個函數，讓heap以高度作為排序依據。
 
-> **⏳ 時間複雜度：O(m\*n\*log(n))**  
+[文字解說(英文)](https://leetcode.com/problems/trapping-rain-water-ii/discuss/89495/How-to-get-the-solution-to-2-D-%22Trapping-Rain-Water%22-problem-from-1-D-case)
+
+> **⏳ 時間複雜度：O(m\*n\*log(mn))**  
 > 解釋：BFS(m\*n) * Heap(log(n))  
 > **💾 空間複雜度：O(m\*n)**  
 
