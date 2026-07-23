@@ -1,4 +1,8 @@
-# Intuition
+# [3513. Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/)
+
+###### tags: `LeetCode` `Medium`
+
+## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 
 一開始還看不懂 XOR 的意思，問了 ChatGPT 後才知道是二進位運算，如果位元一樣，那 XOR 就是 0，反之如果位元不一樣，那就是 1。
@@ -23,10 +27,10 @@ XOR 110 = 6
 
 因此 5 XOR 3 = 6
 
-# Solutions
+## Solutions
 <!-- Describe your approach to solving the problem. -->
 
-## Solution 1
+### Solution 1
 
 最直覺的想法當然就是窮舉法啦！
 
@@ -34,7 +38,7 @@ XOR 110 = 6
 
 果不其然，時間複雜度太高了...
 
-### Code
+#### Code
 
 ```python []
 class Solution(object):
@@ -56,19 +60,19 @@ class Solution(object):
         return len(xor_set)
 ```
 
-### Complexity
+#### Complexity
 - Time complexity: $$Θ(n³)$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
 - Space complexity: $$O(min(n³, 2^b))$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
-### Result
+#### Result
 
 > Time Limit Exceeded  
 > 491 / 785 testcases passed
 
-## Solution 2
+### Solution 2
 
 既然窮舉法不行，那就來找規律吧。
 
@@ -82,7 +86,7 @@ class Solution(object):
 
 結果果然沒有這麼簡單...
 
-### Code
+#### Code
 ```python []
 class Solution(object):
     def uniqueXorTriplets(self, nums):
@@ -99,19 +103,19 @@ class Solution(object):
             return n+1
 ```
 
-### Complexity
+#### Complexity
 - Time complexity: $$O(1)$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
 - Space complexity: $$O(1)$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
-### Result
+#### Result
 
 > Wrong Answer  
 > 39 / 785 testcases passed
 
-## Solution 3
+### Solution 3
 
 好吧，於是我又多觀察了幾筆測資，發現一個有趣的規則：
 
@@ -123,7 +127,7 @@ class Solution(object):
 
 結果就通過了~
 
-### Code
+#### Code
 ```python []
 class Solution(object):
     def uniqueXorTriplets(self, nums):
@@ -141,17 +145,25 @@ class Solution(object):
 
 ```
 
-### Complexity
+#### Complexity
 - Time complexity: $$O(1)$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
 - Space complexity: $$O(1)$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
-### Result
+#### Result
 
 > Accepted  
 > 785 / 785 testcases passed  
 > Time taken: 1hr 1m 39s
 
 ![螢幕擷取畫面 2026-07-23 175544.png](https://assets.leetcode.com/users/images/7cd29604-50f0-47ed-9995-8ed541d31721_1784800558.2749107.png)
+
+---
+
+<div align="center">
+<sub>Date: 2026/07/23</sub>
+<br>
+<sub>Author: Andy Chiang</sub>
+</div>
