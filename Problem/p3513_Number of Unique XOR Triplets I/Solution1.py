@@ -7,6 +7,7 @@ class Solution(object):
         
         xor_set = set()
         n = len(nums)
+        
         for i in range(0, n):
             for j in range(i, n):
                 for k in range(j, n):
