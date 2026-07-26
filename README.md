@@ -66,5 +66,22 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p3513_Number of Unique XOR Triplets I](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p3513_Number%20of%20Unique%20XOR%20Triplets%20I)
 * [p3514_Number of Unique XOR Triplets II](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p3514_Number%20of%20Unique%20XOR%20Triplets%20II)
 
-## Challenge ![](https://img.shields.io/badge/Solved-1-orange)
+## Challenge ![](https://img.shields.io/badge/Solved-1-green)
 * [s20210628_Remove All Adjacent Duplicates In String](https://github.com/AndyChiangSH/LeetCode/tree/master/Challenge/c20210628_RemoveAllAdjacentDuplicatesInString)
+
+## Contest
+
+### Weekly Contest 512 ![](https://img.shields.io/badge/Solved-4-orange)
+
+* [Q1. Largest Integer With Given Digit Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/Contest/Weekly%20Contest%20512/Q1.%20Largest%20Integer%20With%20Given%20Digit%20Sum)
+* [Q2. Aggregate Two Time Series](https://github.com/AndyChiangSH/LeetCode/tree/master/Contest/Weekly%20Contest%20512/Q2.%20Aggregate%20Two%20Time%20Series)
+* [Q3. Count Valid Sequences](https://github.com/AndyChiangSH/LeetCode/tree/master/Contest/Weekly%20Contest%20512/Q3.%20Count%20Valid%20Sequences)
+* [Q4. Minimum Cost Path with Alternating Directions III](https://github.com/AndyChiangSH/LeetCode/tree/master/Contest/Weekly%20Contest%20512/Q4.%20Minimum%20Cost%20Path%20with%20Alternating%20Directions%20III)
+
+---
+
+<div align="center">
+<sub>Date: 2026/07/26</sub>
+<br>
+<sub>Author: Andy Chiang</sub>
+</div>
