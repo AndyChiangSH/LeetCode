@@ -1,18 +1,20 @@
-# Intuition
+# 1464. Maximum Product of Two Elements in an Array
+
+## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 
 不愧是 Easy，簡單到我不知道要講什麼...
 
 不過還是勉強寫一下吧...
 
-# Solution 1
+## Solution 1
 <!-- Describe your approach to solving the problem. -->
 
 最簡單的作法就是先排序數列，然後取第一大和第二大的數字相乘就結束了。
 
 結果時間 100%，空間 97%...太簡單了吧！
 
-## Code
+### Code
 
 ```python []
 class Solution(object):
@@ -27,27 +29,27 @@ class Solution(object):
         return (nums[0]-1) * (nums[1]-1)
 ```
 
-## Complexity
+### Complexity
 
 - Time complexity: $$O(n log n)$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 - Space complexity: $$O(n)$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
-## Result
+### Result
 
 > Accepted 104 / 104 testcases passed  
 > Runtime 0 ms Beats 100.00%  
 > Memory 12.24 MB Beats 97.27%  
 
-# Solution 2
+## Solution 2
 <!-- Describe your approach to solving the problem. -->
 
 更好的寫法是一個 for 迴圈，找出數列中第一大和第二大的數字，然後相乘，結束。
 
 結果時間還是 100%，反而空間變成 72%？
 
-## Code
+### Code
 
 ```python []
 class Solution(object):
@@ -70,14 +72,14 @@ class Solution(object):
         return (max1-1) * (max2-1)
 ```
 
-## Complexity
+### Complexity
 
 - Time complexity: $$O(n)$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 - Space complexity: $$O(1)$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
-## Result
+### Result
 
 > Accepted 104 / 104 testcases passed  
 > Runtime 0 ms Beats 100.00%  
