@@ -1,4 +1,4 @@
-# 1464. Maximum Product of Two Elements in an Array
+# [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/?envType=daily-question&envId=2026-07-27)
 
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
