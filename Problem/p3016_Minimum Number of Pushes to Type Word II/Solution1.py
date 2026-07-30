@@ -14,6 +14,9 @@ class Solution(object):
         count.sort(reverse=True)
         
         for i, c in enumerate(count):
+            if c == 0:
+                break
+            
             m += (i // 8 + 1) * c
             
         return m
