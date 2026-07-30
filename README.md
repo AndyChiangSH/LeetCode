@@ -8,7 +8,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 
 ![](https://i.imgur.com/WF4PW9v.png)
 
-## Problems ![](https://img.shields.io/badge/Solved-58-blue)
+## Problems ![](https://img.shields.io/badge/Solved-59-blue)
 * [p001_Two Sum](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p001_TwoSum)
 * [p002_Add Two Numbers](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p002_AddTwoNumbers)
 * [p003_Longest Substring Without Repeating Characters](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p003_LongestSubstringWithoutRepeatingCharacters)
@@ -64,6 +64,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 * [p564_Find the Closest Palindrome](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p564_FindTheClosestPalindrome)
 * [p913_Cat and Mouse](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p913_CatAndMouse)
 * [p1464_Maximum Product of Two Elements in an Array](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p1464_Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array)
+* [p3014_Minimum Number of Pushes to Type Word I](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p3014_Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I)
 * [p3513_Number of Unique XOR Triplets I](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p3513_Number%20of%20Unique%20XOR%20Triplets%20I)
 * [p3514_Number of Unique XOR Triplets II](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p3514_Number%20of%20Unique%20XOR%20Triplets%20II)
 * [p3517_Smallest Palindromic Rearrangement I](https://github.com/AndyChiangSH/LeetCode/tree/master/Problem/p3517_Smallest%20Palindromic%20Rearrangement%20I)
@@ -83,7 +84,7 @@ LeetCode刷題，每天刷一題，身體健康精神好~
 ---
 
 <div align="center">
-<sub>Date: 2026/07/28</sub>
+<sub>Date: 2026/07/30</sub>
 <br>
 <sub>Author: Andy Chiang</sub>
 </div>
